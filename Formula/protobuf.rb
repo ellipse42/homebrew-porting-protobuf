@@ -20,7 +20,7 @@ class Protobuf < Formula
   end
 
   depends_on "cmake" => :build
-  depends_on "abseil@20240722"
+  depends_on "ellipse42/porting-protobuf/abseil@20240722"
   uses_from_macos "zlib"
 
   on_macos do
